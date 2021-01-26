@@ -189,9 +189,8 @@ module.exports = function (program, conf) {
           console.log(line)
         })
 
-	var out_target = so.selector.normalized.replace('_','').toLowerCase() + '_simresults.json'
+        var out_target = so.selector.normalized.replace('_','').toLowerCase() + '_simresults.json'
         fs.writeFileSync(path.resolve(__dirname, '..', 'simulations', out_target), options_json, {encoding: 'utf8'})
-
         if (so.backtester_generation >= 0)
         {
           var file_name = so.strategy.replace('_','')+'_'+ so.selector.normalized.replace('_','').toLowerCase()+'_'+so.backtester_generation
