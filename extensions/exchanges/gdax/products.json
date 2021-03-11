@@ -236,7 +236,7 @@
   {
     "asset": "BTC",
     "currency": "EUR",
-    "min_size": "0.001",
+    "min_size": "0.0001",
     "max_size": "200",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -245,7 +245,7 @@
   {
     "asset": "BTC",
     "currency": "GBP",
-    "min_size": "0.001",
+    "min_size": "0.0001",
     "max_size": "80",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -254,7 +254,7 @@
   {
     "asset": "BTC",
     "currency": "USD",
-    "min_size": "0.001",
+    "min_size": "0.0001",
     "max_size": "280",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -263,7 +263,7 @@
   {
     "asset": "BTC",
     "currency": "USDC",
-    "min_size": "0.001",
+    "min_size": "0.0001",
     "max_size": "280",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -443,7 +443,7 @@
   {
     "asset": "ETH",
     "currency": "BTC",
-    "min_size": "0.01",
+    "min_size": "0.001",
     "max_size": "2400",
     "increment": "0.00001",
     "asset_increment": "0.00000001",
@@ -452,7 +452,7 @@
   {
     "asset": "ETH",
     "currency": "DAI",
-    "min_size": "0.01",
+    "min_size": "0.001",
     "max_size": "700",
     "increment": "0.01",
     "asset_increment": "0.0001",
@@ -461,7 +461,7 @@
   {
     "asset": "ETH",
     "currency": "EUR",
-    "min_size": "0.01",
+    "min_size": "0.001",
     "max_size": "1600",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -470,7 +470,7 @@
   {
     "asset": "ETH",
     "currency": "GBP",
-    "min_size": "0.01",
+    "min_size": "0.001",
     "max_size": "1400",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -479,7 +479,7 @@
   {
     "asset": "ETH",
     "currency": "USD",
-    "min_size": "0.01",
+    "min_size": "0.001",
     "max_size": "2800",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -488,7 +488,7 @@
   {
     "asset": "ETH",
     "currency": "USDC",
-    "min_size": "0.01",
+    "min_size": "0.001",
     "max_size": "2800",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -605,7 +605,7 @@
   {
     "asset": "LINK",
     "currency": "ETH",
-    "min_size": "1",
+    "min_size": "0.1",
     "max_size": "90000",
     "increment": "0.00000001",
     "asset_increment": "0.01",
@@ -614,7 +614,7 @@
   {
     "asset": "LINK",
     "currency": "EUR",
-    "min_size": "1",
+    "min_size": "0.1",
     "max_size": "90000",
     "increment": "0.00001",
     "asset_increment": "0.01",
@@ -623,7 +623,7 @@
   {
     "asset": "LINK",
     "currency": "GBP",
-    "min_size": "1",
+    "min_size": "0.1",
     "max_size": "90000",
     "increment": "0.00001",
     "asset_increment": "0.01",
@@ -632,7 +632,7 @@
   {
     "asset": "LINK",
     "currency": "USD",
-    "min_size": "1",
+    "min_size": "0.1",
     "max_size": "90000",
     "increment": "0.00001",
     "asset_increment": "0.01",
@@ -668,7 +668,7 @@
   {
     "asset": "LTC",
     "currency": "BTC",
-    "min_size": "0.1",
+    "min_size": "0.01",
     "max_size": "8000",
     "increment": "0.000001",
     "asset_increment": "0.00000001",
@@ -677,7 +677,7 @@
   {
     "asset": "LTC",
     "currency": "EUR",
-    "min_size": "0.1",
+    "min_size": "0.01",
     "max_size": "1000",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -686,7 +686,7 @@
   {
     "asset": "LTC",
     "currency": "GBP",
-    "min_size": "0.1",
+    "min_size": "0.01",
     "max_size": "1000",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -695,7 +695,7 @@
   {
     "asset": "LTC",
     "currency": "USD",
-    "min_size": "0.1",
+    "min_size": "0.01",
     "max_size": "4000",
     "increment": "0.01",
     "asset_increment": "0.00000001",
@@ -709,6 +709,42 @@
     "increment": "0.000001",
     "asset_increment": "1",
     "label": "MANA/USDC"
+  },
+  {
+    "asset": "MATIC",
+    "currency": "BTC",
+    "min_size": "5",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "asset_increment": "0.1",
+    "label": "MATIC/BTC"
+  },
+  {
+    "asset": "MATIC",
+    "currency": "EUR",
+    "min_size": "5",
+    "max_size": "1000000",
+    "increment": "0.0001",
+    "asset_increment": "0.1",
+    "label": "MATIC/EUR"
+  },
+  {
+    "asset": "MATIC",
+    "currency": "GBP",
+    "min_size": "5",
+    "max_size": "1000000",
+    "increment": "0.0001",
+    "asset_increment": "0.1",
+    "label": "MATIC/GBP"
+  },
+  {
+    "asset": "MATIC",
+    "currency": "USD",
+    "min_size": "5",
+    "max_size": "1000000",
+    "increment": "0.0001",
+    "asset_increment": "0.1",
+    "label": "MATIC/USD"
   },
   {
     "asset": "MKR",
@@ -882,6 +918,42 @@
     "label": "REP/USD"
   },
   {
+    "asset": "SKL",
+    "currency": "BTC",
+    "min_size": "5",
+    "max_size": "1000000",
+    "increment": "0.00000001",
+    "asset_increment": "0.1",
+    "label": "SKL/BTC"
+  },
+  {
+    "asset": "SKL",
+    "currency": "EUR",
+    "min_size": "5",
+    "max_size": "1000000",
+    "increment": "0.0001",
+    "asset_increment": "0.1",
+    "label": "SKL/EUR"
+  },
+  {
+    "asset": "SKL",
+    "currency": "GBP",
+    "min_size": "5",
+    "max_size": "1000000",
+    "increment": "0.0001",
+    "asset_increment": "0.1",
+    "label": "SKL/GBP"
+  },
+  {
+    "asset": "SKL",
+    "currency": "USD",
+    "min_size": "5",
+    "max_size": "1000000",
+    "increment": "0.0001",
+    "asset_increment": "0.1",
+    "label": "SKL/USD"
+  },
+  {
     "asset": "SNX",
     "currency": "BTC",
     "min_size": "0.1",
@@ -916,6 +988,51 @@
     "increment": "0.0001",
     "asset_increment": "0.001",
     "label": "SNX/USD"
+  },
+  {
+    "asset": "SUSHI",
+    "currency": "BTC",
+    "min_size": "0.1",
+    "max_size": "12500",
+    "increment": "0.00000001",
+    "asset_increment": "0.01",
+    "label": "SUSHI/BTC"
+  },
+  {
+    "asset": "SUSHI",
+    "currency": "ETH",
+    "min_size": "0.1",
+    "max_size": "12500",
+    "increment": "0.000001",
+    "asset_increment": "0.01",
+    "label": "SUSHI/ETH"
+  },
+  {
+    "asset": "SUSHI",
+    "currency": "EUR",
+    "min_size": "0.1",
+    "max_size": "12500",
+    "increment": "0.001",
+    "asset_increment": "0.01",
+    "label": "SUSHI/EUR"
+  },
+  {
+    "asset": "SUSHI",
+    "currency": "GBP",
+    "min_size": "0.1",
+    "max_size": "12500",
+    "increment": "0.001",
+    "asset_increment": "0.01",
+    "label": "SUSHI/GBP"
+  },
+  {
+    "asset": "SUSHI",
+    "currency": "USD",
+    "min_size": "0.1",
+    "max_size": "12500",
+    "increment": "0.001",
+    "asset_increment": "0.01",
+    "label": "SUSHI/USD"
   },
   {
     "asset": "UMA",
@@ -965,7 +1082,7 @@
   {
     "asset": "UNI",
     "currency": "USD",
-    "min_size": "1",
+    "min_size": "0.1",
     "max_size": "200000",
     "increment": "0.0001",
     "asset_increment": "0.000001",

@@ -403,5 +403,104 @@
     "min_total": "25",
     "increment": "0.00001",
     "label": "USDC/EUR"
+  },
+  {
+    "id": "DAIUSD",
+    "asset": "DAI",
+    "currency": "USD",
+    "min_size": "0.00001",
+    "min_total": "25",
+    "increment": "0.00001",
+    "label": "DAI/USD"
+  },
+  {
+    "id": "KNCUSD",
+    "asset": "KNC",
+    "currency": "USD",
+    "min_size": "0.00000001",
+    "min_total": "25",
+    "increment": "0.00001",
+    "label": "KNC/USD"
+  },
+  {
+    "id": "KNCEUR",
+    "asset": "KNC",
+    "currency": "EUR",
+    "min_size": "0.00000001",
+    "min_total": "25",
+    "increment": "0.00001",
+    "label": "KNC/EUR"
+  },
+  {
+    "id": "KNCBTC",
+    "asset": "KNC",
+    "currency": "BTC",
+    "min_size": "0.00000001",
+    "min_total": "0.001",
+    "increment": "0.00000001",
+    "label": "KNC/BTC"
+  },
+  {
+    "id": "MKRUSD",
+    "asset": "MKR",
+    "currency": "USD",
+    "min_size": "0.00000001",
+    "min_total": "25",
+    "increment": "0.01",
+    "label": "MKR/USD"
+  },
+  {
+    "id": "MKREUR",
+    "asset": "MKR",
+    "currency": "EUR",
+    "min_size": "0.00000001",
+    "min_total": "25",
+    "increment": "0.01",
+    "label": "MKR/EUR"
+  },
+  {
+    "id": "MKRBTC",
+    "asset": "MKR",
+    "currency": "BTC",
+    "min_size": "0.00000001",
+    "min_total": "0.001",
+    "increment": "0.00000001",
+    "label": "MKR/BTC"
+  },
+  {
+    "id": "ZRXUSD",
+    "asset": "ZRX",
+    "currency": "USD",
+    "min_size": "0.00000001",
+    "min_total": "25",
+    "increment": "0.00001",
+    "label": "ZRX/USD"
+  },
+  {
+    "id": "ZRXEUR",
+    "asset": "ZRX",
+    "currency": "EUR",
+    "min_size": "0.00000001",
+    "min_total": "25",
+    "increment": "0.00001",
+    "label": "ZRX/EUR"
+  },
+  {
+    "id": "ZRXBTC",
+    "asset": "ZRX",
+    "currency": "BTC",
+    "min_size": "0.00000001",
+    "min_total": "0.001",
+    "increment": "0.00000001",
+    "label": "ZRX/BTC"
+  },
+  {
+    "id": "GUSDUSD",
+    "asset": "GUSD",
+    "currency": "USD",
+    "min_size": "0.00001",
+    "min_total": "25",
+    "increment": "0.00001",
+    "label": "GUSD/USD"
   }
 ]
