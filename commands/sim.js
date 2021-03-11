@@ -179,6 +179,8 @@ module.exports = function (program, conf) {
         options_output.simresults.total_sells = sells
         options_output.simresults.total_losses = losses
         options_output.simresults.vs_buy_hold = n(s.balance.currency).subtract(buy_hold).divide(buy_hold).value() * 100.00
+	options_output.simresults.error_rate = 99
+        options_output.simresults.error_rate = (sells ? n(losses).divide(sells).format('0.00') : '0.00') * 100.00
 
         let options_json = JSON.stringify(options_output, null, 2)
         if (so.show_options) {
